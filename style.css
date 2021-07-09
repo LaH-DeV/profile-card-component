@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-dark-cyan: hsl(185, 75%, 39%);
+    --color-desaturated-blue: hsl(229, 23%, 23%);
+    --color-grayish-blue: hsl(227, 10%, 46%);
+    --color-dark-gray: hsl(0, 0%, 59%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: var(--color-dark-gray);
+    letter-spacing: 1.1px;
+    font-size: 11px;
+}
+
+
+body {
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--color-dark-cyan);
+}
+
+.pattern {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.white p {
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.Name p {
+    font-size: 18px;
+}
+
+.Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 20px 0;
+}
+
+.white {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h2 {
+    font-size: 18px;
+    padding-right: 10px;
+    color: var(--color-desaturated-blue);
+}
+
+.card {
+    background-color: white;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+.background img {
+    z-index: -1;
+    position: absolute;
+}
+
+.background img:nth-last-of-type(1) {
+    left: 50%;
+    top: 270px;
+}
+  
+.background img:nth-last-of-type(2) {
+    right: 50%;
+    bottom: 180px;
+}
+  
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.colored {
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    left: 50%;
+    bottom: -30%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.stats {
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+
+.stat p {
+    margin-top: 10px;
+}
+
+.stat {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
