@@ -10,11 +10,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-
 - [Author](#author)
-
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -42,5 +38,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Add your name here](https://lah-dev.netlify.app)
+- Website - [Lah.Dev](https://lah-dev.netlify.app)
 - Frontend Mentor - [@LaH-DeV](https://www.frontendmentor.io/profile/LaH-DeV)
